@@ -54,8 +54,8 @@ Configuration & Settings page shows data from config table: [
     $ composer install
     $ cp .env.example .env
     // set database name in .env file and create databese by that name
+    // set email provider and password to send emails
     $ nano .env
     $ php artisan migrate
-    4 ./vendor/bin/phpunit // to run unit test by phpunit
-    $ php artisan serve    // to run unit test by server
+    $ php artisan serve    // to run server
 ```
